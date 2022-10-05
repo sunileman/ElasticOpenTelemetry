@@ -10,4 +10,12 @@ export ELASTIC_APM_SECRET_TOKEN="YOUR-ELASTIC-APM-SERVER-SECRET-KEY"
 
 ##
 Replace otelcol-config-extras.yml
-`opentelemetry-demo/src/otelcollector/otelcol-config-extras.yml`
+`opentelemetry-demo/src/otelcollector/docker-compose up --no-build`
+
+
+run
+```
+docker-compose up --no-build
+```
+
+Once the demo is up and a change has been made to `docker-compose up --no-build`, restart otel collector container
